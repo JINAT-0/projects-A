@@ -3,6 +3,12 @@
     padding: 0px;
 }
 
+* {
+  font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  
+}
+
 header{
     background-image: url(./img/coffee_image.png);
     width:1366px ;
@@ -23,6 +29,9 @@ nav .menu a{
     color: #FFFFFF;
 
 }
+nav .menu a:hover{
+   color: goldenrod;
+}
 nav .menu{
      display: flex;
      gap: 60px;
@@ -38,7 +47,13 @@ nav .menu{
     
 
 }
-.side-nav .btn{
+.side-nav .btn:hover{
+   color: white;
+}
+.side-nav a:hover{
+   color: goldenrod;
+}
+.btn{
     width: 100px;
     height: 48px;
     background-color: #F9C06A;
@@ -51,6 +66,10 @@ nav .menu{
     
     text-align: center;
     
+}
+.btn:hover{
+    color: white;
+    background-color: burlywood;
 }
 .side-nav {
    
@@ -66,5 +85,67 @@ nav .menu{
 nav{
     display: flex;
     justify-content: space-between;
+}
+h5{
+  
+    color:#FFFFFF ;
+    font-size: 20px;
+    font-weight: 400;
+    
+}
+h4{
+  
+    color:#FFFFFF ;
+    font-size: 22px;
+    font-family: p;
+   
+    
+}
+@font-face{
+    font-family: clicker;
+    src:url("font/ClickerScript-Regular.ttf");
+}
+.clicker{
+    font-family: clicker;
+    color: #FFFFFF;
+    font-weight: 400;
+    font-size:220px ;
+    
+}
+.ban-1{
+    display: grid;
+
+}
+.bannar{
+     padding: 183px 746px 95px 93px;
+     display: grid;
+     gap: 20px;
+}
+.main-1 h1{
+    color:#603809 ;
+    font-size: 54px;
+    font-weight: 700;
+
+}
+.main-1 p{
+    color:#603809 ;
+    font-size: 20px;
+    font-weight: 400;
+    width: 585px;
+    height: 170px;
+
+}
+.main-1{
+    display: grid;
+    gap: 29px;
+}
+.nut-cup{
+    height: 476px;
+    width: 680px;
+
+}
+.main-11{
+    display: flex;
+    gap: 95px;
 }
 
