@@ -345,6 +345,7 @@ h4{
 }
 .bean-1 .p2{
     position: static;
+    right: 0;
 
 
 }
@@ -689,5 +690,3 @@ h4{
     padding: 162px 93px 278px 94px;
 
 }
-
-
