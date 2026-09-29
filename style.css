@@ -344,6 +344,21 @@ h4{
     justify-self: end;
 }
 .bean-1 .p2{
+    position: relative;
+    left: 350px;
+    right: 0;
+
+
+}
+.bean-1 .p1{
+    position: absolute;
+    top: 2900px;
+    left:1400px;
+    z-index: 1;
+    
+
+}
+/* .bean-1 .p2{
     position: static;
     right: 0;
 
@@ -355,7 +370,7 @@ h4{
     left:500px;
     
 
-}
+} */
 
 
 .main-4{
